@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Temakeria D&apos;Oeste</title>
+<meta name="description" content="Temakeria D&apos;Oeste &middot; Barreiras, BA. Card&aacute;pio, pedidos, Instagram, WhatsApp e localiza&ccedil;&atilde;o.">
+<meta name="theme-color" content="#080706">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/logo.svg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+<style>:root{--bg:#080706;--o1:#FFC590;--o2:#FF9A4D;--o3:#C95F1E;--cream:#F7EFE6;--mut:#B7A898;--line:rgba(255,154,77,.30)}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;min-height:100vh;color:var(--cream);font:400 15px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden;background:radial-gradient(560px 380px at 50% -6%,rgba(255,126,40,.30),transparent 70%),radial-gradient(420px 360px at 100% 55%,rgba(201,95,30,.16),transparent 70%),radial-gradient(420px 360px at 0% 88%,rgba(255,154,77,.10),transparent 70%),var(--bg);-webkit-font-smoothing:antialiased}
+.bg{position:fixed;inset:0;z-index:0;pointer-events:none}
+.arc{background:repeating-radial-gradient(circle at 50% -10%,rgba(255,154,77,.07) 0 1px,transparent 1px 34px);-webkit-mask-image:radial-gradient(ellipse 90% 70% at 50% 14%,#000 8%,transparent 76%);mask-image:radial-gradient(ellipse 90% 70% at 50% 14%,#000 8%,transparent 76%)}
+.vig{background:radial-gradient(ellipse at 50% 38%,transparent 52%,rgba(0,0,0,.7) 100%)}
+.pt{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.pt i{position:absolute;top:-24px;width:var(--z);height:calc(var(--z)*1.35);border-radius:100% 0 100% 0;background:linear-gradient(135deg,#FFE3EC,#F6A8C0);opacity:0;will-change:transform;animation:fall var(--s) linear var(--d) infinite}
+.pt i::after{content:"";position:absolute;left:46%;top:-2px;width:2px;height:32%;background:#fff;opacity:.5;border-radius:2px}
+@keyframes fall{0%{opacity:0;transform:translate3d(0,-20px,0) rotate(0)}8%{opacity:.85}50%{transform:translate3d(var(--w),52vh,0) rotate(200deg)}92%{opacity:.7}100%{opacity:0;transform:translate3d(calc(var(--w)*-.4),108vh,0) rotate(420deg)}}
+.wrap{position:relative;z-index:1;max-width:440px;margin:0 auto;padding:40px 16px 44px;display:flex;flex-direction:column;gap:18px}
+.hero{text-align:center}
+.logo{display:block;width:min(310px,80%);height:auto;margin:0 auto;filter:drop-shadow(0 8px 28px rgba(255,126,40,.22))}
+.orn{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px auto 0;color:var(--o2);font:600 11px Inter,sans-serif;letter-spacing:.34em;text-transform:uppercase}
+.orn::before,.orn::after{content:"";width:44px;height:1px;background:linear-gradient(90deg,transparent,var(--o2))}
+.orn::after{transform:scaleX(-1)}
+.orbs{display:flex;justify-content:center;gap:24px;margin-top:2px}
+.ob{display:flex;flex-direction:column;align-items:center;gap:9px;text-decoration:none;color:var(--cream);-webkit-tap-highlight-color:transparent;width:72px}
+.orb{position:relative;width:66px;height:66px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 32% 22%,#4a3a30 0,#1D1510 50%,#0A0705 100%);box-shadow:inset 0 2px 1px rgba(255,255,255,.30),inset 0 -11px 16px rgba(0,0,0,.7),0 14px 24px rgba(0,0,0,.7),0 3px 7px rgba(0,0,0,.6);transition:transform .18s,box-shadow .18s}
+.orb::before{content:"";position:absolute;inset:0;border-radius:50%;padding:1.6px;background:linear-gradient(150deg,#FFD7B0,#FF9A4D 42%,#8A3F10 62%,#FFC590);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask:linear-gradient(#000 0 0) content-box exclude,linear-gradient(#000 0 0)}
+.orb::after{content:"";position:absolute;left:13%;top:5%;width:74%;height:42%;border-radius:50%;background:linear-gradient(180deg,rgba(255,255,255,.30),rgba(255,255,255,0))}
+.orb svg{width:31px;height:31px;position:relative;z-index:1}
+.ob:hover .orb{transform:translateY(-3px);box-shadow:inset 0 2px 1px rgba(255,255,255,.34),inset 0 -11px 16px rgba(0,0,0,.7),0 20px 30px rgba(0,0,0,.7),0 0 22px rgba(255,154,77,.32)}
+.ob:active .orb{transform:scale(.94)}
+.lb{font:500 11.5px Inter,sans-serif;letter-spacing:.04em;color:var(--mut);white-space:nowrap}
+.sec{display:flex;align-items:center;gap:14px;margin:6px 4px 0;color:var(--o1);font:700 12.5px Inter,sans-serif;letter-spacing:.24em;text-transform:uppercase}
+.sec::before,.sec::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--line))}
+.sec::after{transform:scaleX(-1)}
+.rw{position:relative;margin:0 -16px}
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 16px 10px;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab}
+.rail::-webkit-scrollbar{display:none}
+.rail.dg{scroll-snap-type:none;cursor:grabbing;user-select:none}
+.pc{position:relative;flex:none;width:190px;aspect-ratio:4/5;scroll-snap-align:start;border-radius:20px;overflow:hidden;text-decoration:none;background:#140E09;border:1px solid var(--line);box-shadow:0 14px 28px rgba(0,0,0,.55);transition:transform .2s,border-color .2s;-webkit-tap-highlight-color:transparent}
+.pc:hover{transform:translateY(-3px);border-color:var(--o2)}
+.pc img{display:block;width:100%;height:100%;object-fit:cover;-webkit-user-drag:none}
+.nv{position:absolute;top:44%;transform:translateY(-50%);z-index:2;width:36px;height:36px;border-radius:50%;border:1px solid var(--o2);background:rgba(8,7,6,.9);color:var(--o1);font:400 22px/1 Inter,sans-serif;cursor:pointer;display:grid;place-items:center;padding:0 0 3px}
+.nv:hover{background:var(--o2);color:#1B0E05}
+.pv{left:22px}.nx{right:22px}
+@media(hover:none){.nv{display:none}}
+.btn{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;padding:16px;border-radius:18px;text-decoration:none;-webkit-tap-highlight-color:transparent;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:scale(.98)}
+.ic{flex:none;width:48px;height:48px;border-radius:50%;display:grid;place-items:center}
+.ic svg{width:26px;height:26px}
+.t{flex:1;min-width:0}
+.t b{display:block;font:700 17px/1.2 Inter,sans-serif}
+.t span{display:block;font-size:12.5px;margin-top:2px}
+.go{flex:none;font:400 21px Inter,sans-serif}
+.og{color:#1B0E05;background:linear-gradient(135deg,var(--o1),var(--o2) 46%,var(--o3));box-shadow:0 16px 32px rgba(201,95,30,.45),inset 0 1px 0 rgba(255,255,255,.6),inset 0 -8px 14px rgba(110,45,8,.3)}
+.og:hover{transform:translateY(-2px)}
+.og .ic{background:rgba(255,255,255,.55)}
+.og .t span{color:#5a2c0c}
+.gl{position:absolute;left:0;right:0;top:0;height:46%;background:linear-gradient(180deg,rgba(255,255,255,.4),rgba(255,255,255,0));border-radius:18px 18px 60% 60%/18px 18px 22px 22px;pointer-events:none}
+.wh{color:#2A1A0E;background:radial-gradient(120% 140% at 50% 40%,rgba(255,255,255,.97) 38%,rgba(255,255,255,.66) 78%,rgba(255,255,255,.42) 100%);border:1px solid rgba(255,255,255,.62);box-shadow:0 14px 30px rgba(255,255,255,.07),0 10px 24px rgba(0,0,0,.5),inset 0 1px 0 #fff,inset 0 -10px 18px rgba(255,154,77,.16)}
+.wh:hover{transform:translateY(-2px)}
+.wh .ic{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.18)}
+.wh .t span{color:#7a5a40}
+.wh .go{color:#C95F1E}
+.wh::before{content:"";position:absolute;top:0;left:-70%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.95),transparent);transform:skewX(-18deg);animation:sh 4.5s ease-in-out infinite;pointer-events:none}
+@keyframes sh{0%,55%{transform:translateX(0) skewX(-18deg)}100%{transform:translateX(525%) skewX(-18deg)}}
+.st5{color:#E58A2E;letter-spacing:.12em}
+.copy{margin:18px 0 0;text-align:center;color:#8a7d6f;font-size:12px}
+.foot{margin-top:14px;padding-top:18px;border-top:1px solid var(--line);text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center}
+.c{margin:0;color:var(--mut);font-size:12px;line-height:1.6}
+.c b{font-weight:600;color:var(--o1);font-size:13px}
+.ct{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.cta{display:inline-block;margin-top:4px;padding:10px 18px;border-radius:12px;border:1px solid var(--o2);color:var(--o1);text-decoration:none;font-weight:600;font-size:13.5px}
+.cta:hover{background:var(--o2);color:#1B0E05}
+a:focus-visible,button:focus-visible{outline:2px solid var(--o1);outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.pt{display:none}}</style>
+</head>
+<body>
+<div class="bg arc"></div><div class="bg vig"></div><div class="pt" aria-hidden="true"><i style="left:6%;--d:0s;--s:17s;--w:40px;--z:9px"></i><i style="left:21%;--d:6s;--s:21s;--w:-30px;--z:7px"></i><i style="left:37%;--d:12s;--s:19s;--w:50px;--z:8px"></i><i style="left:52%;--d:3s;--s:23s;--w:-45px;--z:6px"></i><i style="left:66%;--d:9s;--s:18s;--w:35px;--z:9px"></i><i style="left:80%;--d:15s;--s:22s;--w:-35px;--z:7px"></i><i style="left:92%;--d:1s;--s:20s;--w:28px;--z:6px"></i><i style="left:45%;--d:19s;--s:24s;--w:42px;--z:7px"></i></div>
+<main class="wrap">
+<header class="hero"><h1 style="margin:0"><img class="logo" src="img/logo.svg" alt="Temakeria D&apos;Oeste" width="696" height="421"></h1><p class="orn">Barreiras &middot; Bahia</p></header>
+<nav class="orbs" aria-label="Contatos"><a class="ob" href="https://www.instagram.com/temakeriadoeste/" target="_blank" rel="noopener" aria-label="Instagram"><span class="orb"><svg viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="igg" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".4" stop-color="#FA7E1E"/><stop offset=".65" stop-color="#D62976"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="url(#igg)" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="url(#igg)" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.2" fill="url(#igg)"/></svg></span><span class="lb">Instagram</span></a><a class="ob" href="https://www.google.com/maps/search/?api=1&query=Temakeria%20D%27Oeste%20Barreiras%20BA" target="_blank" rel="noopener" aria-label="Como chegar"><span class="orb"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#FFB77E" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg></span><span class="lb">Como chegar</span></a><a class="ob" href="https://wa.me/5577991451600" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="orb"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#25D366" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.9 9.9 0 1 0 12.04 2Zm5.8 14.15c-.25.7-1.45 1.33-2 1.4-.52.08-1.17.1-1.88-.12a17 17 0 0 1-1.7-.63c-3-1.3-4.95-4.32-5.1-4.52-.15-.2-1.2-1.6-1.2-3.05 0-1.45.76-2.17 1.03-2.46.27-.3.6-.37.8-.37h.57c.18 0 .43-.07.67.52.25.6.85 2.07.92 2.22.08.15.12.33.03.52-.1.2-.15.32-.3.5l-.45.52c-.15.15-.3.3-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.1 1.32 2.4 1.47.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.7.8 2 .95.3.15.5.22.57.35.08.12.08.72-.17 1.42Z"/></svg></span><span class="lb">WhatsApp</span></a></nav>
+<a class="btn og" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener"><i class="gl"></i><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#1B0E05" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v6a2.2 2.2 0 0 0 4.4 0V3M8.2 3v18M17 21V3c-2.6 1.4-3.8 4-3.8 7.2h3.8"/></svg></span><div class="t"><b>Card&aacute;pio</b><span>Fa&ccedil;a seu pedido</span></div><span class="go">&rarr;</span></a>
+<div class="rw"><button class="nv pv" type="button" aria-label="Anterior">&#8249;</button><button class="nv nx" type="button" aria-label="Pr&oacute;ximo">&#8250;</button><div class="rail" id="rail"><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/01-rolls-crocantes.webp" alt="" width="480" height="600" decoding="async"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/02-onigiri.webp" alt="" width="480" height="600" decoding="async"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/03-salmao-macarico.webp" alt="" width="480" height="600" decoding="async"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/04-uramaki-caviar.webp" alt="" width="480" height="600" decoding="async" loading="lazy"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/05-barca.webp" alt="" width="480" height="600" decoding="async" loading="lazy"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/06-temaki.webp" alt="" width="480" height="600" decoding="async" loading="lazy"></a><a class="pc" href="https://temakeriadoeste.linkpedidos.shop/" target="_blank" rel="noopener" aria-label="Ver card&aacute;pio"><img src="img/07-rolls-fritos.webp" alt="" width="480" height="600" decoding="async" loading="lazy"></a></div></div>
+<a class="btn wh" href="https://g.page/r/CZw4NYdw6tjMEAE/review" target="_blank" rel="noopener"><i class="gl"></i><span class="ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.5 0 6.6 1.2 9.1 3.6l6.8-6.8C35.8 2.4 30.3 0 24 0 14.6 0 6.5 5.4 2.6 13.2l7.9 6.2C12.4 13.7 17.7 9.5 24 9.5Z"/><path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.2 5.5-4.7 7.2l7.6 5.9c4.4-4.1 6.9-10.2 6.9-17.6Z"/><path fill="#FBBC05" d="M10.5 28.6a14.5 14.5 0 0 1 0-9.2l-7.9-6.2a24 24 0 0 0 0 21.6l7.9-6.2Z"/><path fill="#34A853" d="M24 48c6.5 0 11.9-2.100 15.900-5.800l-7.600-5.900c-2.100 1.400-4.900 2.300-8.300 2.300-6.300 0-11.600-4.200-13.500-9.900l-7.900 6.200C6.500 42.600 14.600 48 24 48Z"/></svg></span><div class="t"><b>Avalie no Google</b><span><span class="st5">&#9733;&#9733;&#9733;&#9733;&#9733;</span> Sua opini&atilde;o &eacute; muito importante</span></div><span class="go">&rarr;</span></a>
+<p class="copy">&copy; Temakeria D&apos;Oeste</p>
+<footer class="foot">
+<p class="c"><b>HMA Solu&ccedil;&otilde;es Digitais</b></p>
+<p class="c ct"><span>WhatsApp 77 99973-5965</span><span>Instagram @digital.hma</span></p>
+<a class="cta" href="https://wa.me/5577999735965?text=Ol%C3%A1%2C%20vim%20pela%20p%C3%A1gina%20da%20Temakeria%20D%27Oeste%20e%20gostaria%20de%20saber%20os%20valores" target="_blank" rel="noopener">Quero minha p&aacute;gina de links</a>
+</footer>
+</main>
+<script>(function(){var r=document.getElementById('rail'),p=0,m=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function w(){return r.firstElementChild.offsetWidth+12}
+function nx(){if(p||m||document.hidden)return;if(r.scrollLeft+r.clientWidth>=r.scrollWidth-4)r.scrollTo({left:0,behavior:'smooth'});else r.scrollBy({left:w(),behavior:'smooth'})}
+setInterval(nx,3400);function hold(){p=1;clearTimeout(hold.t);hold.t=setTimeout(function(){p=0},9000)}
+r.addEventListener('pointerdown',hold);r.addEventListener('wheel',hold,{passive:true});r.addEventListener('touchstart',hold,{passive:true});
+var rw=r.parentNode;rw.querySelector('.pv').onclick=function(){hold();r.scrollBy({left:-2*w(),behavior:'smooth'})};rw.querySelector('.nx').onclick=function(){hold();r.scrollBy({left:2*w(),behavior:'smooth'})};
+var dx=0,sx=0,sl=0,mv=0;r.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse'||e.button)return;dx=1;mv=0;sx=e.clientX;sl=r.scrollLeft});
+addEventListener('pointermove',function(e){if(!dx)return;var d=e.clientX-sx;if(Math.abs(d)>4){mv=1;r.classList.add('dg')}if(mv)r.scrollLeft=sl-d});
+addEventListener('pointerup',function(){if(dx){dx=0;r.classList.remove('dg')}});
+r.addEventListener('click',function(e){if(mv){e.preventDefault();e.stopPropagation();mv=0}},true);r.addEventListener('dragstart',function(e){e.preventDefault()});
+var ac;document.addEventListener('pointerdown',function(ev){if(!ev.target.closest('.btn,.ob,.cta,.pc'))return;try{ac=ac||new(window.AudioContext||window.webkitAudioContext)();var o=ac.createOscillator(),g=ac.createGain(),t=ac.currentTime;o.type='triangle';o.frequency.setValueAtTime(2400,t);g.gain.setValueAtTime(.18,t);g.gain.exponentialRampToValueAtTime(.001,t+.02);o.connect(g);g.connect(ac.destination);o.start(t);o.stop(t+.025)}catch(x){}});
+})();</script>
+</body>
+</html>
