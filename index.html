@@ -16,7 +16,7 @@ body{margin:0;min-height:100vh;color:var(--cream);font:400 15px/1.5 Inter,system
 .bg{position:fixed;inset:0;z-index:0;pointer-events:none}
 .arc{background:repeating-radial-gradient(circle at 50% -10%,rgba(255,154,77,.07) 0 1px,transparent 1px 34px);-webkit-mask-image:radial-gradient(ellipse 90% 70% at 50% 14%,#000 8%,transparent 76%);mask-image:radial-gradient(ellipse 90% 70% at 50% 14%,#000 8%,transparent 76%)}
 .vig{background:radial-gradient(ellipse at 50% 38%,transparent 52%,rgba(0,0,0,.7) 100%)}
-.pt{position:fixed;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+.pt{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .pt i{position:absolute;top:-24px;width:var(--z);height:calc(var(--z)*1.35);border-radius:100% 0 100% 0;background:linear-gradient(135deg,#FFE3EC,#F6A8C0);opacity:0;will-change:transform;animation:fall var(--s) linear var(--d) infinite}
 .pt i::after{content:"";position:absolute;left:46%;top:-2px;width:2px;height:32%;background:#fff;opacity:.5;border-radius:2px}
 @keyframes fall{0%{opacity:0;transform:translate3d(0,-20px,0) rotate(0)}8%{opacity:.85}50%{transform:translate3d(var(--w),52vh,0) rotate(200deg)}92%{opacity:.7}100%{opacity:0;transform:translate3d(calc(var(--w)*-.4),108vh,0) rotate(420deg)}}
